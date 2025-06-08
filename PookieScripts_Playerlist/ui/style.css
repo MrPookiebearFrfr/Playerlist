@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: transparent; /* Transparent background */
+  color: #f1f1f1;
+}
+
+#playerList {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(24, 24, 24, 0.95); /* Nearly black background */
+  border: 2px solid #333; /* Dark gray border */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.7);
+  min-width: 200px;
+  max-width: 400px;
+  width: 80%;
+  z-index: 1000;
+}
+
+.title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #e0e0e0; /* Light gray for the header */
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #444; /* Medium gray table borders */
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #222; /* Dark gray for table headers */
+  color: #f1f1f1; /* Light gray text */
+}
+
+td {
+  background-color: #232323; /* Slightly lighter black for table cells */
+  color: #e0e0e0;
+}
+
+#playerCount {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #b0b0b0; /* Medium gray for player count text */
+}
+
+#toggleInstruction {
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 8px;
+}
+
+#serviceStatusContainer {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 14px;    /* Add spacing above */
+  margin-bottom: 8px;
+}
+
+.serviceStatus {
+  font-size: 16px;
+  font-weight: bold;
+  color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.statusDot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 4px;
+  background-color: #b0b0b0; /* default gray */
+  border: 1px solid #333;
+}
