@@ -38,7 +38,7 @@ Customize the UI in the config if you want to change the look or feel.
 
 🔗 Download
 Try it here:
-https://github.com/MrPookiebearFrfr/PookieScripts-Playerlist
+[https://github.com/MrPookiebearFrfr/PookieScripts-Playerlist](https://github.com/MrPookiebearFrfr/Playerlist?tab=readme-ov-file)
 
 🧠 Made by PookieDev
 Part of the PookieScripts collection — built to make roleplay smoother and better for everyone.
